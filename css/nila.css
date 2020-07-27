@@ -1,0 +1,192 @@
+body{
+    padding-top: 150px;
+}
+
+#navbarMenu{
+    background-color: #bf1e24 !important;
+    padding-left: 300px !important;
+}
+
+.navbar-brand img{
+    width: 250px;
+}
+
+#logo{
+    z-index: 1 !important;
+    position: absolute;
+    top: 100px;
+    background-color: transparent !important;
+    margin-bottom: 50px;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: #1e4160 !important;
+}
+
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#containerContent{
+    padding-top: 100px;
+}
+
+#conWelcome h1{
+    color: white;
+    background-color: #bf1e24 !important;
+    margin-bottom: 0;
+}
+
+.conHead{
+    color: white;
+    background-color: #1e5669 !important;
+}
+
+#conWelcome .row div img{
+    width: 100%;
+}
+
+#conAbout h1{
+    color: white !important;
+    background-color: #bf1e24 !important;
+    font-weight: 600 !important;
+}
+
+#conAbout h2{
+    color: #1e5669 !important;
+    font-weight: 600 !important;
+}
+
+#conAbout p{
+    font-weight: 500 !important;
+}
+
+#conService{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#conService h1{
+    color: white !important;
+    background-color: #bf1e24 !important;
+    font-weight: 600 !important;
+    margin-bottom: 0px;
+}
+
+#conService h2{
+    background-color: #1e5669 !important;
+    font-weight: 600 !important;
+    color: white !important;
+    margin-bottom: 0px;
+}
+
+#conService p, #conService ul, #conService li{
+    font-weight: 500 !important;
+    background-color: #1e5669 !important;
+    color: white !important;
+    margin-bottom: 0px;
+}
+
+#conProducts h1{
+    color: white !important;
+    background-color: #bf1e24 !important;
+    font-weight: 600 !important;
+}
+
+#conProducts h3{
+    color: #1e5669 !important;
+    font-weight: 700 !important;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#conProducts h4{
+    font-weight: 600 !important;
+    margin-bottom: 20px;
+}
+
+#conProducts p{
+    color: #bf1e24 !important;
+    font-weight: 500 !important;
+    margin-bottom: 20px;
+}
+
+#conNews h1{
+    color: white !important;
+    background-color: #bf1e24 !important;
+    font-weight: 600 !important;
+}
+
+#conNews h5{
+    font-weight: 700 !important;
+    margin-bottom: 10px;
+}
+
+#conNews .news{
+    margin-top: 50px;
+}
+
+#conContact{
+    margin-bottom: 20px;
+}
+
+#conContact h1{
+    color: white !important;
+    background-color: #bf1e24 !important;
+    font-weight: 600 !important;
+}
+
+#conContact .container .row{
+    font-weight: normal;
+    padding: 0;
+}
+
+#btnComment{
+    height: 200px;
+}
+
+footer{
+    background-color: #1e5669;
+    color: white;
+    margin-top: 80px;
+}
+
+@media (max-width: 576px) { 
+    body{
+        padding-top: 0px !important;
+    }
+
+    #navbarMenu{
+        padding-left: 1rem !important;
+    }
+
+    #logo{
+        z-index: 0 !important;
+        position: relative;
+        top: 0px;
+        background-color: #bf1e24 !important;
+    }
+
+    .navbar-brand img{
+        width: 120px;
+    }
+
+    #containerContent{
+        padding-top: 0px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer .align-items-end{
+        align-items: unset !important;
+    }
+}
